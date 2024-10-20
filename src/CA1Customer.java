@@ -21,55 +21,21 @@ public class CA1Customer {
 
    }
 
-   //---GENERATED GETTERS AND SETTERS-------
+   //---GENERATED GETTERS AND SETTERS THAT I KEPT/USED-------
 
    public String getFirstName() {
       return firstName;
-   }
-
-   public void setFirstName(String firstName) {
-      this.firstName = firstName;
    }
 
    public String getSecondName() {
       return secondName;
    }
 
-   public void setSecondName(String secondName) {
-      this.secondName = secondName;
-   }
-
-   public double getTotalPurchase() {
-      return totalPurchase;
-   }
-
-   public void setTotalPurchase(double totalPurchase) {
-      this.totalPurchase = totalPurchase;
-   }
-
-   public int getCustomerClass() {
-      return customerClass;
-   }
-
-   public void setCustomerClass(int customerClass) {
-      this.customerClass = customerClass;
-   }
-
-   public int getLastPurchaseYear() {
-      return lastPurchaseYear;
-   }
-
-   public void setLastPurchaseYear(int lastPurchaseYear) {
-      this.lastPurchaseYear = lastPurchaseYear;
-   }
-
    public double getFinalValue() {
       return finalValue;
    }
 
-   public void setFinalValue(double finalValue) {
-      this.finalValue = finalValue;
-   }
+
 
    //This method is called by the constructor after the fields have been initialized ,
    //it calculates needed values and initializes the total finalValue field, later printed to the file
